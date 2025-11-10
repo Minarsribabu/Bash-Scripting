@@ -1,0 +1,18 @@
+- CLI- Command Line Interface (By using the terminal, accessing the files/directories)
+--TechWorld with Naina
+--monitering liog files(Devops job, we have to moniter the log files which are updated in 24hrs)
+
+firstly the log files show the information about Success/Failures/Errors/Fatals so we need to check those by using
+	"grep "Failure" *.log"
+	-grep used to search/categorize in the files
+	-here we are finiding the failure text in *.log files
+
+	find . -name *.log -mtime -1 (find for filtering, . represents current Directory(here logs is the directory),-name to display the filtered files by names of the each files,:wq *.log all files which are with .log extension, -mtime for filtering time, -1 means before 1 day/1 day back edited)
+	
+	#!->shebang-first line of Script, tells which interpreter should execute the file
+	Shell scripting(file with linux/shell commands)
+		-remove manual typing commands in the terminal
+		-automates the task
+		-error handling
+		-time reduced
+		
