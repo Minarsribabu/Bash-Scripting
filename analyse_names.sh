@@ -1,5 +1,5 @@
 #!/bin/bash
-report="/c/Users/minar/DEVOPS/analyse_report.txt"
+report="/c/-----/analyse_report.txt"
 echo -e "\nAnalysing Files " > "$report"
 echo -e "\nFiles modified/updated with in 24hrs" >> "$report"
 log_file=$(find . -name "*.txt" -mtime -1)
